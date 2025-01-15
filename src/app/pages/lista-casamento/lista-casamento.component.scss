@@ -142,3 +142,41 @@ h5{
   }
 }
 
+  /*Modal Igreja*/
+  .modal {
+    font-family: "Glacialfont", sans-serif;
+  }
+  
+  .place{
+    margin-bottom: 6px;
+  }
+  
+  .address{
+    padding: 0 12px 0 12px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .imgModal{
+    padding: 0 12px 12px;
+  }
+  
+  .modalH{
+    border-bottom: none;
+  }
+  
+  .modalF{
+    display: inline;
+    flex-shrink: 0;
+    border-top: none;
+    text-align: center;
+    flex-wrap: wrap-reverse;
+    align-items: center;
+    justify-content: flex-end;
+    padding: calc(var(--bs-modal-padding) - var(--bs-modal-footer-gap)* .5);
+    background-color: var(--bs-modal-footer-bg);
+    border-top: var(--bs-modal-footer-border-width) solid var(--bs-modal-footer-border-color);
+    border-bottom-right-radius: var(--bs-modal-inner-border-radius);
+    border-bottom-left-radius: var(--bs-modal-inner-border-radius);
+  }
+

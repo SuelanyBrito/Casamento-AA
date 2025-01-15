@@ -4,10 +4,6 @@ import { ClipboardModule } from 'ngx-clipboard';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NavbarComponent } from './sharepage/navbar/navbar.component';
-import { MenuComponent } from './pages/menu/menu.component';
-import { HomeComponent } from './pages/home/home.component';
-import { ThanksComponent } from './pages/about/thanks.component';
-import { GeneralListComponent } from './pages/general-list/general-list.component';
 import { NgOptimizedImage } from '@angular/common';
 import { ImageGalleryComponent } from './image-gallery/image-gallery.component';
 import { ListaCasamentoComponent } from './pages/lista-casamento/lista-casamento.component';
@@ -35,10 +31,7 @@ import {NgbCarouselModule, NgbSlide} from "@ng-bootstrap/ng-bootstrap";
     AppComponent,
     NavbarComponent,
     DialogComponent,
-    MenuComponent,
-    HomeComponent,
-    ThanksComponent,
-    GeneralListComponent,
+
     ImageGalleryComponent,
     ListaCasamentoComponent
   ],
