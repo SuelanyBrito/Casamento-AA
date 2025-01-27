@@ -61,11 +61,11 @@ export class BackService {
     return this.apollo.watchQuery({
       query: gql`
             query GetPix {
-              getPix
+              getPixAna
 
           }`,
     }).valueChanges.pipe(
-      map((result: any) => result.data.getPix)
+      map((result: any) => result.data.getPixAna)
 
     );
   }
